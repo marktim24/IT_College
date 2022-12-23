@@ -68,6 +68,9 @@
 	section
 		padding: 60px 0
 
+	#advantages 
+		padding-top: 240px
+
 	#advantages h2
 		font-size: 30px
 
@@ -95,6 +98,72 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.hamburger
+		display: block
+	#header
+		position: relative
+		.inner_header .right_header .menu_top
+			display: none
+			position: absolute
+			left: 0
+			right: 0
+			top: 75px
+			width: 100%
+			background-color: #FCFDFF
+			padding: 10px 15px
+			z-index: 11
+			>li
+				display: block
+				>a
+					padding: 5px 10px
+				>.sub_menu
+					display: block
+					position: relative
+					top: auto
+					background-color: #FCFDFF
+					box-shadow: none
+					border-radius: none
+					animation: none
+					padding-left: 15px
+
+	#header .inner_header .right_header .menu_top > li.has_sub_menu::after
+		display: none
+
+	#top_banner
+		background-color: #FCFDFF
+		background-image: none !important		
+		.main_banner
+			padding: 20px 0 
+
+	.notif
+		margin: 0 auto
+
+	.main_banner .main_banner_info 
+		text-align: center
+		>h1
+			font-size: 32px
+
+	.main_banner .main_banner_info > .descrtiption
+		font-size: 14px
+	
+	.main_banner .main_banner_info > .btns
+		flex-wrap: wrap
+		>a 
+			display: block
+			width: 100%
+		>.btn_white
+			margin: 0
+			margin-top: 10px
+
+	section
+		padding: 40px 0
+
+	#reviews .nav_review > div
+		width: 30%
+		margin: 10px auto		 
+		padding-left: 10px
+
+
 	/**/
 
 

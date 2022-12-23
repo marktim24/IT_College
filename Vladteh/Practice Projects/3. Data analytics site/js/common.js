@@ -2,16 +2,17 @@ $(function() {
 
 	new WOW().init();
 
+	// menu mobile hambrurger 
 	$(".hamburger").click(function(){
 		$(this).toggleClass("is-active");
 
 		if($(this).hasClass('is-active')){
-			$('.mnu_top').slideDown(300);
+			$('.menu_top').slideDown(300);
 		}else{
-			$('.mnu_top').slideUp(300);
+			$('.menu_top').slideUp(300);
 		}
 	});
-	
+	// menu mobile hambrurger 
 
 	$('.nav_review > div').click(function(){
 		const revID = $(this).data('revid');

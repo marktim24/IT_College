@@ -1,4 +1,5 @@
 class BinaryTree {
+
 	add(value) {
 		if (!this.root) {
 			this.root = new TreeNode(value)
@@ -25,13 +26,14 @@ class BinaryTree {
 			}
 		}
 	}
+	
 	print(root = this.root) {
 		if (!root) {
 			return true
 		}
 		console.log(root.value)
-		this.left = null
-		this.right = null
+		this.print(root.left)
+		this.print(root.right)
 	}
 }
 

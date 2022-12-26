@@ -1,11 +1,11 @@
 const graph = {}
-graph.a = ['C','F'];
-graph.b = ['D'];
-graph.c = ['D','A'];
-graph.d = ['B','C','E'];
-graph.e = ['D','F','G'];
-graph.f = ['A','E','G'];
-graph.g = ['E','F'];
+graph.a = ['f'];
+graph.b = ['d'];
+graph.c = ['d','a'];
+graph.d = ['b','c','e'];
+graph.e = ['d','f','g'];
+graph.f = ['a','e','g'];
+graph.g = ['e','f'];
 
 function breadthSearch(graph, start, end) { 
 	let line = [];
@@ -21,6 +21,7 @@ function breadthSearch(graph, start, end) {
 			line = [...line, ...graph[current]];
 		}
 	}
+	return false
  }
 
- console.log(breadthSearch(graph, 'A', 'B'));
+ console.log(breadthSearch(graph, 'a', 'e'));

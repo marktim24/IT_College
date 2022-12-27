@@ -1,4 +1,4 @@
-public class Example5 {
+public class diffuculty_estimate_5 {
 
 	//time: O(n), memory: O(n)
 

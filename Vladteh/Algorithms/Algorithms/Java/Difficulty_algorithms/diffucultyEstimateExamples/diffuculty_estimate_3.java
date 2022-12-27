@@ -1,6 +1,6 @@
 
 
-public class Example3 {
+public class diffuculty_estimate_3 {
 
 	// time: O(n), memory: O(n)
 	public int[] findTwoSum(int[] array) {

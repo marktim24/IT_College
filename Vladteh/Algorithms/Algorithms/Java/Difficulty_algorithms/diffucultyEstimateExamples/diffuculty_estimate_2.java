@@ -1,4 +1,4 @@
-public class Example2 {
+public class diffuculty_estimate_2 {
 
 // time: O(n^2), memory: O(1)
 	public void sort(int[] array) {

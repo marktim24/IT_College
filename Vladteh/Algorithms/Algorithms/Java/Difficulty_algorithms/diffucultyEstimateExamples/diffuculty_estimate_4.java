@@ -1,4 +1,4 @@
-public class Example4 {
+public class diffuculty_estimate_4 {
 
 	//time: O(2^n), memory: O(n)
 	public int getFibonacci (int n) {

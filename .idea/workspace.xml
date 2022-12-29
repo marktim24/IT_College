@@ -42,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672331086485</updated>
       <workItem from="1672331088048" duration="30000" />
-      <workItem from="1672331593151" duration="335000" />
+      <workItem from="1672331593151" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="Database project">
       <created>1672331628442</created>
@@ -58,11 +58,29 @@
       <option name="project" value="LOCAL" />
       <updated>1672331672618</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1672331981007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672331981007</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Database Project" />

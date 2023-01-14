@@ -1,0 +1,28 @@
+@import url(../../../dist/swiper-bundle.css);
+body,
+html {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%; }
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 50px auto; }
+
+.swiper-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform: translate3d(0px, 0, 0);
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transition-property: transform; }
+
+/*# sourceMappingURL=styles.css.map */

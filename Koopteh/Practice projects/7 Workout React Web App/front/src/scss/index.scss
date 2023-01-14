@@ -1,7 +1,11 @@
-@import './variables';
+@import './_variables';
 
 body {
+	color: white;
+	font-family: $default-font;
 	background-color: $background;
-	padding: 0;
+	padding: 30px;
 	margin: 0;
+	height: 910px;
+	width: 500px;
 }

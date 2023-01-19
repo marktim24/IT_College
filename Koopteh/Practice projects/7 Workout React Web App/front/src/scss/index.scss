@@ -1,11 +1,14 @@
 @import './_variables';
 
+* {
+	color: $white;
+	font-family: $default-font;
+}
+
 body {
-	color: white;
+	color: $white;
 	font-family: $default-font;
 	background-color: $background;
-	padding: 30px;
+	padding: 0;
 	margin: 0;
-	height: 910px;
-	width: 500px;
 }

@@ -1,13 +1,12 @@
 import React from 'react'
 import Header from '../Header/Header'
-
 import styles from './Layout.module.scss'
 
-const Layout = ({ children, bgImg, height = '500px' }) => {
+const Layout = ({ children, bgImg, height }) => {
 	return (
 		<div
 			className={styles.wrapper}
-			style={{ height, backgroundImage: `url (${bgImg})` }}
+			style={{ height, backgroundImage: `url(${bgImg})` }}
 		>
 			<Header />
 			<div>{children}</div>

@@ -3,11 +3,7 @@ import Layout from './components/Layout/Layout'
 import Home from './components/pages/Home/Home.jsx'
 
 const App = () => {
-	return (
-		<Layout>
-			<Home />
-		</Layout>
-	)
+	return <Home />
 }
 
 export default App

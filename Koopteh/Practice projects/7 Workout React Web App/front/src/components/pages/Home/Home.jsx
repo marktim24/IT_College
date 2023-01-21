@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<Layout height='100%' bgImg={bgImg}>
 			<Button text='New' styles='main' callback={() => {}} />
-			<h1>EXERCISES FOR THE SHOULDERS</h1>
+			<h1 className={styles.heading}>EXERCISES FOR THE SHOULDERS</h1>
 			<Counters />
 		</Layout>
 	)

@@ -21,6 +21,8 @@
 		"colors": "^1.4.0",
 		"concurrently": "^7.6.0",
 		"morgan": "^1.10.0",
-		"nodemon": "^2.0.20"
+		"nodemon": "^2.0.20",
+		"prettier": "^2.8.3",
+		"yarn": "^1.22.19"
 	}
 }

@@ -96,7 +96,7 @@ heading.append('JS')
 
 // #Array methods
 
-const cities = ['London', 'Moscow', 'New York', 'Helsinki', 'Tallinn']
+/* const cities = ['London', 'Moscow', 'New York', 'Helsinki', 'Tallinn']
 const students = [
 	{
 		name: 'John',
@@ -113,18 +113,74 @@ const students = [
 		age: 32,
 		city: 'Moscow',
 	},
-]
+]  */
 
-// for (let i = 0; i < cities.length; i++) {
-// 	console.log(cities[i])
-// }
+/* for (let i = 0; i < cities.length; i++) {
+	console.log(cities[i])
+} */
 
 // map || foreach
-
-// cities.forEach(city => console.log(city))
-// console.log(cities.map(city => city))
+/* cities.forEach(city => console.log(city + ' 1'))
+console.log(cities.map(city => city + ' 1')) */
 
 // filter
+/* console.log(students.filter(student => student.age >= 21)) */
+
 // push & unshift
+/* cities.push('Berlin')
+console.log(cities)
+
+cities.unshift('Berlin')
+console.log(cities) */
+
 // slice
+
+/* console.log(cities.slice(0,3)) */
+
 // find
+/* console.log(students.find(student => student.name === 'Alex')) */
+
+//reduce
+
+/* const cart = [
+	{
+		id: 1,
+		name: 'Coffee',
+		price: 40,
+	},
+	{
+		id: 2,
+		name: 'Apple juice',
+		price: 60,
+	},
+	{
+		id: 3,
+		name: 'Milk',
+		price: 100,
+	},
+]
+
+console.log(cart.reduce((acc, product) => acc + product.price, 0))
+ */
+
+// Assign
+/* const person = {
+	name: 'Mark',
+	age: 24,
+	city: 'New York',
+}
+
+const dividend = {
+	profit: 100,
+}
+ */
+/* console.log(Object.assign(person, dividend))
+ */
+
+//Entries
+/* console.log(Object.entries(person))
+ */
+//Keys and Values
+/* console.log(Object.keys(person))
+console.log(Object.values(person))
+ */

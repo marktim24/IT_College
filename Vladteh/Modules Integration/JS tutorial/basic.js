@@ -168,6 +168,9 @@ console.log(cart.reduce((acc, product) => acc + product.price, 0))
 	name: 'Mark',
 	age: 24,
 	city: 'New York',
+	getName() {
+		return this.name
+	}
 }
 
 const dividend = {

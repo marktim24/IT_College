@@ -1,5 +1,5 @@
 enum studyList {
-	School = 3, 
+	School, 
 	College,
 	University
 }
